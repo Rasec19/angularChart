@@ -2,3 +2,20 @@
 html, body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+body{
+  display: flex;
+  place-content: center center;
+}
+.container{
+  width: 50%;
+}
+
+.container path{
+  fill: #F9B452;
+  stroke: #8B4513;
+  stroke-width: 2px;
+}
+
+.container :hover{
+  fill: #800000;
+}
